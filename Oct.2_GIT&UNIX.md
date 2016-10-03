@@ -60,6 +60,7 @@ cat list.txt | sort | uniq | wc -l
 2. Linux I/O redirection: **1> stdout; 2> stderr; &> stdout and stderr**
 
 Notes:
+
 1. [awk](http://blog.csdn.net/andyxm/article/details/5964071)  
 Syntax:
 ```
