@@ -66,8 +66,8 @@ Notes:
 1. [awk](http://blog.csdn.net/andyxm/article/details/5964071)  
 Syntax:
 ```
-awk '/search pattern1/ {Actions}    
- 		/search pattern2/ {Actions}' file
+	awk '/search pattern1/ {Actions}    
+	 		/search pattern2/ {Actions}' file
 ```
 $0 print line; $1,$2,$3... print column;
 
