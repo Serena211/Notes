@@ -1,4 +1,4 @@
-[**Git**](https://git-scm.com)
+[**Git**](https://git-scm.com/blog)
 ```
 git pull --rebase origin master
 ```
