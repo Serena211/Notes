@@ -3,15 +3,14 @@
 	git pull --rebase origin master
 1. —-rebase: avoid to use;
 2. git pull --> git merge (handle conflict) --> git push
-	```
-	(my_branch) $ git add .
-	(my_branch) $ git commit -m "..."
-	(my_branch) $ git checkout devel
-	(devel) $ git pull origin devel
-	(devel) $ git merge my_branch
-	(devel) $ git push origin devel
-	```
-3. TBC...
+```
+(my_branch) $ git add .
+(my_branch) $ git commit -m "..."
+(my_branch) $ git checkout devel
+(devel) $ git pull origin devel
+(devel) $ git merge my_branch
+(devel) $ git push origin devel
+```
 
 
 	git reset --hard HEAD
@@ -41,8 +40,10 @@
 
 [e.g. from stackoverflow](http://stackoverflow.com/questions/3510673/find-and-kill-a-process-in-one-line-using-bash-and-regex)
 
+
 	tail -f /var/log/syslog
 1. `tail -f filename` = `tail -n 10 filename`: monitor file update and display information from the end of the file
+
 
 
 	cat list.txt | sort | uniq | wc -l
@@ -50,6 +51,7 @@
 2. `cat list.txt list1.txt > all.txt`: concatenate two files
 3. **wc**: word count
 	**-l lines; -w words; -m characters**
+
 
 
 	./a.out 2> /dev/null
