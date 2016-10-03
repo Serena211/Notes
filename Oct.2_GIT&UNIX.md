@@ -1,4 +1,4 @@
-[**Git**]()
+[**Git**](https://git-scm.com/)
 ```
 git pull --rebase origin master
 ```
@@ -70,7 +70,6 @@ Syntax:
 	 		/search pattern2/ {Actions}' file
 ```
 $0 print line; $1,$2,$3... print column;
-
 2. Reference:
 
 	- http://www.ee.surrey.ac.uk/Teaching/Unix/
