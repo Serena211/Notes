@@ -1,19 +1,21 @@
 [**Git**]()
-
-	git pull --rebase origin master
+```
+git pull --rebase origin master
+```
 1. —-rebase: avoid to use;
 2. git pull --> git merge (handle conflict) --> git push
 ```
-(my_branch) $ git add .
-(my_branch) $ git commit -m "..."
-(my_branch) $ git checkout devel
-(devel) $ git pull origin devel
-(devel) $ git merge my_branch
-(devel) $ git push origin devel
+	(my_branch) $ git add .
+	(my_branch) $ git commit -m "..."
+	(my_branch) $ git checkout devel
+	(devel) $ git pull origin devel
+	(devel) $ git merge my_branch
+	(devel) $ git push origin devel
 ```
 
-
-	git reset --hard HEAD
+```
+git reset --hard HEAD
+```
 1. HEAD: pointer to last commit snapshot
 2. --hard: resets the index and working tree. Any changes to tracked files in the working tree since <commit> are discarded.
 3. [Read...](http://stackoverflow.com/questions/4114095/how-to-revert-git-repository-to-a-previous-commit)
@@ -64,8 +66,8 @@ Notes:
 1. [awk](http://blog.csdn.net/andyxm/article/details/5964071)  
 Syntax:
 ```
-		awk '/search pattern1/ {Actions}    
-     		/search pattern2/ {Actions}' file
+awk '/search pattern1/ {Actions}    
+ 		/search pattern2/ {Actions}' file
 ```
 $0 print line; $1,$2,$3... print column;
 
