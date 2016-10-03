@@ -56,7 +56,7 @@
 
 	./a.out 2> /dev/null
 1. /dev/null: black hole
-2. linux io redirection: **1> stdout; 2> stderr; &> stdout and stderr**
+2. Linux I/O redirection: **1> stdout; 2> stderr; &> stdout and stderr**
 
 Notes:
 1. [awk](http://blog.csdn.net/andyxm/article/details/5964071)
