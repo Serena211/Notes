@@ -13,6 +13,7 @@
 	```
 
 
+
 	git reset --hard HEAD
 1. HEAD: pointer to last commit snapshot
 2. --hard: resets the index and working tree. Any changes to tracked files in the working tree since <commit> are discarded.
