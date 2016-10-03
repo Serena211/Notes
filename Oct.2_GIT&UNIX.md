@@ -41,11 +41,6 @@
 [e.g. from stackoverflow](http://stackoverflow.com/questions/3510673/find-and-kill-a-process-in-one-line-using-bash-and-regex)
 
 
-	./a.out 2> /dev/null
-1. /dev/null: black hole
-2. Linux I/O redirection: **1> stdout; 2> stderr; &> stdout and stderr**
-
-
 	tail -f /var/log/syslog
 1. `tail -f filename` = `tail -n 10 filename`: monitor file update and display information from the end of the file
 
@@ -57,6 +52,13 @@
 3. **wc**: word count
 	**-l lines; -w words; -m characters**
 
+
+```
+./a.out 2> /dev/null
+```
+
+1. /dev/null: black hole
+2. Linux I/O redirection: **1> stdout; 2> stderr; &> stdout and stderr**
 
 Notes:
 1. [awk](http://blog.csdn.net/andyxm/article/details/5964071)
