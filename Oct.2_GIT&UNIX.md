@@ -1,4 +1,4 @@
-[**Git**](https://git-scm.com/blog)
+#[**Git**](https://git-scm.com/blog)
 ```
 git pull --rebase origin master
 ```
@@ -20,7 +20,7 @@ git reset --hard HEAD
 2. --hard: resets the index and working tree. Any changes to tracked files in the working tree since <commit> are discarded.
 3. [Read...](http://stackoverflow.com/questions/4114095/how-to-revert-git-repository-to-a-previous-commit)
 
-[**UNIX**](https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html)
+#[**UNIX**](https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html)
 
 	ps aux | grep foo | grep -v grep | awk '{print $2}' | xargs kill
 
