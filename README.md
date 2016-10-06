@@ -7,6 +7,6 @@ This repo is used to keep my notes for my personal studying path. Hope it is hel
 
 - [REGEX](https://github.com/Serena211/Notes/blob/master/Oct.1_Regex.md)
 
-- [JavaScript] ()
+- [JavaScript] (https://github.com/Serena211/Notes/blob/master/Oct.5_JavaScript.md)
 
-- [SQL] ()
+- [SQL] (https://github.com/Serena211/Notes/blob/master/Oct.5_SQL.md)
