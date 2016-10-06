@@ -61,6 +61,12 @@ cat list.txt | sort | uniq | wc -l
 1. /dev/null: black hole
 2. Linux I/O redirection: **1> stdout; 2> stderr; &> stdout and stderr**
 
+```
+	grep -ewi 'that\|then\|the'
+```
+1. [grep OR/AND/NOT](http://www.thegeekstuff.com/2011/10/grep-or-and-not-operators/)
+2. `-i`: case not sensitive
+
 Notes:
 
 1. [awk](http://blog.csdn.net/andyxm/article/details/5964071)  
