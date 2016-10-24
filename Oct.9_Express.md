@@ -16,6 +16,18 @@
     res.send("Hello All Method");
   });
   ```
-2. express.router
+
+  test post method
+    - use Postman
+    - use `curl -X POST "http://localhost:port/hello"` on your command line
+
+2. express.Router():
+
+  separate out routes from our main index.js file
 
   check this link:  http://stackoverflow.com/a/33261362/6157406
+
+3. Middleware:
+
+  `next()` : It tells that more processing is	required for the current request and is in the next middleware function/route handler.
+  ![middleware](https://www.tutorialspoint.com/expressjs/images/middleware_desc.jpg)
