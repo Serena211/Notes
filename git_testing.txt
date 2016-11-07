@@ -1,2 +1,5 @@
 Hello Git Merg
 submite1
+// Use a for loop to console.log contents.
+for(var i=0; i console.log(arr[i]);
+}
