@@ -1,4 +1,5 @@
 # [**Git**](https://git-scm.com/blog)
+## Notes
 ```
 git stash
 ```
@@ -27,3 +28,11 @@ git reset --hard HEAD
 1. HEAD: pointer to last commit snapshot
 2. --hard: resets the index and working tree. Any changes to tracked files in the working tree since <commit> are discarded.
 3. [Read...](http://stackoverflow.com/questions/4114095/how-to-revert-git-repository-to-a-previous-commit)
+
+## Materials
+
+1. git 入门基础知识：
+
+	http://blog.jobbole.com/102957/?utm_source=blog.jobbole.com&utm_medium=relatedPosts
+
+2.
