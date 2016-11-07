@@ -1,9 +1,10 @@
 # [**Git**](https://git-scm.com/blog)
 ## Notes
+branch strategy (feature-based, bug-fixed)
 ```
 git stash
 ```
-[stash](https://www.atlassian.com/git/tutorials/git-stash/#re-applying-your-stashed-chang): temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on.
+[stash](https://www.atlassian.com/git/tutorials/git-stash/#re-applying-your-stashed-chang): temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on. `git stash pop`
 ```
 git clean
 ```
@@ -35,4 +36,6 @@ git reset --hard HEAD
 
 	http://blog.jobbole.com/102957/?utm_source=blog.jobbole.com&utm_medium=relatedPosts
 
-2.
+2. git Fullstack intro:
+
+	http://blog.jobbole.com/107027/
