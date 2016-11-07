@@ -1,2 +1,3 @@
 Hello Git Merg
 submite1
+submite2
